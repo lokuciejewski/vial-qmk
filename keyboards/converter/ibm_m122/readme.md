@@ -9,7 +9,7 @@ This conversion is 100% reversible and does not require modifying the keyboard i
 
 - Proper `vial` support
 - 3 layers for remapping keys
-- Optional buzzer
+- Optional buzzer (highly recommended)
 - [3D printed mount](https://github.com/lokuciejewski/m122_blackpill_converter) for the Blackpill (no glue required)  
 
 ## Connection
@@ -29,6 +29,8 @@ Buzzer   | STM32F401 Blackpill
    \-    | G
 
 The piezo buzzer runs on `pwm_software` since I could not manage to make it run on `pwm_hardware` driver and STM32F401 Blackpill does not have the DAC.
+
+As a small bonus, the keyboard makes an IBM-XT like beep when powered on :)
 
 ## Default key map
 
